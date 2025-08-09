@@ -1,0 +1,42 @@
+
+# Ignore Python cache and compiled files
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+
+# Ignore virtual environments
+.venv/
+venv/
+.env/
+.envrc
+
+# Ignore VS Code settings
+.vscode/
+
+# Ignore OS-specific files
+.DS_Store
+Thumbs.db
+
+# Ignore logs
+*.log
+
+# Ignore build and distribution folders
+build/
+dist/
+*.egg-info/
+
+# Ignore lock files
+uv.lock
+
+# Ignore secrets
+*.env
+
+# Ignore GitHub and Git folders
+.git/
+.github/
+
+# Ignore database files
+*.sqlite3
+*.db
